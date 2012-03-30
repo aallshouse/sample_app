@@ -15,8 +15,8 @@ describe "StaticPages" do
                                 :text => "#{title}")
     end
     it "should not have a custom page title" do
-      page.should have_selector('title',
-                                :text => ' | Home')
+      page.should_not have_selector('title',
+                                    :text => ' | Home')
     end
   end
   describe "Help page" do
