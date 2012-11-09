@@ -11,8 +11,9 @@ end
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.8.1'
-  gem 'jquery-rails', '2.0.0'
 end
+
+gem 'jquery-rails'
 
 group :assets do
   gem 'sass-rails', '3.2.3'
@@ -29,6 +30,5 @@ end
 
 group :production do
   gem 'pg', '0.12.2'
-  gem 'jquery-rails', '2.1.3'
 end
 
