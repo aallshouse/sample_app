@@ -33,7 +33,7 @@ describe "User pages" do
       describe "as an admin user" do
         let(:admin) { FactoryGirl.create(:admin) }
         before do
-          sigin_in admin
+          sign_in admin
           visit users_path
         end
 
